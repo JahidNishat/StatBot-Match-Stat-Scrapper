@@ -1,0 +1,12 @@
+telegram:
+  token: "YOUR_TELEGRAM_BOT_TOKEN"
+  adminID: 123456789 # Your Telegram User ID
+  chatIDList:
+    - 123456789
+
+database:
+  host: "telebot-db" # Use "localhost" if running outside docker
+  port: 5432
+  password: "YOUR_DB_PASSWORD"
+  user: "YOUR_DB_USER"
+  dbname: "basket_stat"
